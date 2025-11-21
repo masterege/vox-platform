@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: vox-db
+    environment:
+      POSTGRES_DB: vox
+      POSTGRES_USER: vox_admin
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - vox-network
+
+networks:
+  vox-network:
+    driver: bridge
+
+volumes:
+  postgres_data:

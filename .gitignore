@@ -1,0 +1,24 @@
+# Java / Gradle
+.gradle/
+build/
+out/
+bin/
+*.class
+*.jar
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Node / Frontend
+node_modules/
+dist/
+.env
+.DS_Store
+coverage/
+
+# Logs
+*.log
