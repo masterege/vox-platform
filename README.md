@@ -4,9 +4,6 @@
 
 Vox is a full-stack chat application inspired by Discord, engineered with a focus on distributed architecture, end-to-end encryption, and seamless user experience. It features hierarchical server structures, instant messaging via WebSockets, and a robust friend management system.
 
-![Vox Preview](https://via.placeholder.com/1200x600?text=Vox+Platform+Preview)
-*(Replace this link with an actual screenshot of your app)*
-
 ## 🚀 Key Features
 
 ### Core Communication
